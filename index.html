@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bikerz Zone</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@400;500;700&family=Lobster&family=Manrope&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:wght@500;700&family=Rubik+Bubbles&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="overly">
+        <nav class="navbar navbar-expand-md pt-5">
+          <div class="container">
+            <a class="navbar-brand fw-bold fs-2 text-white f-fam" href="#"
+              >Go Ride</a
+            >
+            <button
+              class="navbar-toggler bg-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2">
+                <li class="nav-item ms-3">
+                  <a
+                    class="nav-link active text-white .f-fam fs-6 fw-semi-bold"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item ms-3">
+                  <a
+                    class="nav-link text-white .f-fam fs-6 fw-semi-bold"
+                    href="#"
+                    >Shop</a
+                  >
+                </li>
+                <li class="nav-item ms-3">
+                  <a
+                    class="nav-link text-white .f-fam fs-6 fw-semi-bold"
+                    href="#"
+                    >News</a
+                  >
+                </li>
+                <li class="nav-item ms-3 me-5">
+                  <a
+                    class="nav-link text-white .f-fam fs-6 fw-semi-bold"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+
+              <button
+                class="btn btn-color py-2 px-4 text-white f-fam"
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="banner-content mm-width">
+            <h1 class="text-white fw-bold fs-1 f-fam">
+              Keep Your Ride Safe At Every Time
+            </h1>
+            <p class="text-white fs-6 fs-semi-bold">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <!-- best byke collection section -->
+      <section class="my-5 py-5 text-center">
+        <h2 class="fs-1 fw-semi-bold">Fetured Bikes In This Year</h2>
+        <h4 class="fs-6 fw-semi-bold text-danger text-opacity-75">
+          Best bike collection
+        </h4>
+        <hr class="w-25 mx-auto text-danger text-opacity-75" />
+        <div class="row row-cols-1 row-cols-md-3 mt-5 g-5">
+          <div class="col">
+            <img class="w-100" src="images/bike-8.png" alt="" />
+          </div>
+          <div class="col">
+            <img class="w-100" src="images/bike-5.png" alt="" />
+          </div>
+          <div class="col">
+            <img class="w-100" src="images/bike-6.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Latest news section -->
+      <section class="mb-5">
+        <h2 class="fs-1 fw-semi-bold mb-5 pb-5 text-center">Latest News</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 rounded-4">
+                <img src="images/bike-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <button class="btn btn-outline-danger opacity-75">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4">
+                <img src="images/Bike-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Motorcycles & Scooters</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <button class="btn btn-outline-danger opacity-75">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4">
+                <img src="images/bike-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">2021 Honda CBR500R</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <button class="btn btn-outline-danger opacity-75">Read More</button>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
